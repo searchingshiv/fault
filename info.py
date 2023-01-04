@@ -46,7 +46,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/RelaxroomOTT')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RelaxroomBkp')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'RelaxroomOTT')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https;//t.me/RelaxroomSupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
