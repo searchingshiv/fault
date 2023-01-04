@@ -537,7 +537,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton('Join Updates Channel', url='t.me/RelaxroomBkp")
                 ],[
-                    InlineKeyboardButton('Watch Tutorial', url=HOW_DWLD_LINK'),
+                    InlineKeyboardButton('Watch Tutorial', url=HOW_DWLD_LINK')
                 ],[
                     InlineKeyboardButton('🔒 Cʟᴏsᴇ Mᴇɴᴜ', callback_data='close_data')
                   ]]
