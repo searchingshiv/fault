@@ -84,7 +84,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", 
+                    text=f"💾get_size(file.file_size)}⮞ {file.file_name}", 
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -98,7 +98,7 @@ async def next_page(bot, query):
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}", 
+                    text=f"💾get_size(file.file_size)⮞", 
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -128,16 +128,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢Updates Channel', url='Relaxroombkp.t.me'),
-                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='Relaxroombkp.t.me'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢Updates Channel', url='Relaxroombkp.t.me'),
-                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='Relaxroombkp.t.me'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
                 ]
             )
 
@@ -1100,16 +1100,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
                 ]
             )
                 
@@ -1120,16 +1120,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
                 ]
             )
 
