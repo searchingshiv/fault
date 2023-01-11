@@ -1102,18 +1102,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
+                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
                 
@@ -1124,18 +1122,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
+                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
