@@ -11,11 +11,11 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/RelaxroomBkp>𒆜 NEO ࿐</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/TeamRelaxroom>𒆜 Team Relaxroom</a></b>
 
 <b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/RelaxroomBkp>Relaxroom Bot's ⚡</a></b>
 
-<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
+<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.69 [Sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT ="""
 <b>Bakk BC!!.
@@ -199,9 +199,9 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @RelaxroomOTT</b>
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : NEOx69
-• ᴜꜱᴇʀɴᴀᴍᴇ : @admin
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/RelaxroomOTT'>NEO ࿐</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Relaxroom Team
+• ᴜꜱᴇʀɴᴀᴍᴇ : @TeamRelaxroom
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/TeamRelaxroom'>Daddy</a></b>
 """
 
     KD_IMDB = """
