@@ -22,10 +22,10 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/705593c3ae56831c8e565.jpg https://telegra.ph/file/869de5ba9ac7e61559f24.jpg https://telegra.ph/file/4f3d1cc0b1375ae596b16.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/f01520f488c35ae229e21.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/f01520f488c35ae229e21.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/9c5a53bb672e853584aae.jpg")
-NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/705593c3ae56831c8e565.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/7197069a413702b3ba98c.jpg")
+NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/f01520f488c35ae229e21.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
