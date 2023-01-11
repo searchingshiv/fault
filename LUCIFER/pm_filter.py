@@ -108,16 +108,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('🌿Updates Channel', url='Relaxroombkp.t.me'),
-                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢Updates Channel', url='Relaxroombkp.t.me'),
+                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
                 
@@ -128,18 +128,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton('📢Updates Channel', url='Relaxroombkp.t.me'),
+                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
+                    InlineKeyboardButton('📢Updates Channel', url='Relaxroombkp.t.me'),
+                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
@@ -164,7 +162,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⚡", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1102,16 +1100,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
                 
@@ -1122,21 +1120,21 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('🌿Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🌿Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
                 ]
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⚡", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
     ])
 
     if offset != "":
