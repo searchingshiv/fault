@@ -108,16 +108,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢Updates Channel', url='Relaxroombkp.t.me'),
-                    InlineKeyboardButton('🎁Request Group', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='Relaxroombkp.t.me'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
                 ]
             )
                 
