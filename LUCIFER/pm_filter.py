@@ -84,7 +84,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"💾{get_size(file.file_size)} 🠚  {file.file_name}", 
+                    text=f"📂 {get_size(file.file_size)} 🠚  {file.file_name}", 
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -98,7 +98,7 @@ async def next_page(bot, query):
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
-                    text=f"💾{get_size(file.file_size)} 🠚", 
+                    text=f"📂 {get_size(file.file_size)} 🠚", 
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -1074,7 +1074,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", 
+                    text=f"📂 {get_size(file.file_size)} 🠚 {file.file_name}", 
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -1089,7 +1089,7 @@ async def auto_filter(client, msg, spoll=False):
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}", 
+                    text=f"📂 {get_size(file.file_size)} 🠚", 
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -1284,8 +1284,8 @@ async def advantage_spell_chok(msg):
     gs_parsed = []
     if not g_s:
         btn = [[
-            InlineKeyboardButton(' ɢᴏᴏɢʟᴇ ', url=f"https://google.com/search?q={search}"),
-            InlineKeyboardButton('ɪᴍᴅʙ', url=f"https://imdb.com/find?q={search}")
+            InlineKeyboardButton(' Search on Google ', url=f"https://google.com/search?q={search}"),
+            InlineKeyboardButton('Search on IMDB', url=f"https://imdb.com/find?q={search}")
         ]]           
         k = await msg.reply_photo(photo=SPELL_IMG, caption=script.I_CUDNT, reply_markup=InlineKeyboardMarkup(btn))    
         await asyncio.sleep(SPL_DELETE_TIME)
