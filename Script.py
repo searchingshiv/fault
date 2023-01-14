@@ -134,7 +134,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @RelaxroomOTT ]─────⍟</b>"""
+<b>⍟────[ @RelaxroomBkp ]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
@@ -185,12 +185,12 @@ Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ 🤧</b>
     MVE_NT_FND = """<b>Mᴏᴠɪᴇ Nᴏᴛ Fᴏᴜɴᴅ...
     
 Rᴇᴀsᴏɴs
-𝟷) O.T.T Oʀ DVD Nᴏᴛ Rᴇʟᴇᴀsᴇᴅ
+𝟷) Your Spelling is wrong!
 
 𝟸) Tʏᴘᴇ Nᴀᴍᴇ Wɪᴛʜ Yᴇᴀʀ
 
 𝟹) Mᴏᴠɪᴇ Is Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ Dᴀᴛᴀʙᴀsᴇ 
-Rᴇᴘᴏʀᴛ Hᴇʀᴇ @RelaxroomOTT</b>
+Rᴇᴘᴏʀᴛ Hᴇʀᴇ @RelaxroomSupport</b>
 """
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...
@@ -201,7 +201,7 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @RelaxroomOTT</b>
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : Relaxroom Team
 • ᴜꜱᴇʀɴᴀᴍᴇ : @TeamRelaxroom
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/TeamRelaxroom'>Daddy</a></b>
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/TeamRelaxroom'>Support Team</a></b>
 """
 
     KD_IMDB = """
@@ -334,7 +334,7 @@ https://t.me/RelaxroomBkp/385</code>
 
 ɪғ ʏᴏᴜ ɴᴏᴛ sᴇᴇ ʏᴏᴜʀ ғɪʟᴇs ᴏɴ ᴛʜɪs ᴘᴀɢᴇ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ.
 
-Powered by :- @RelaxroomBkp
+Powered by :- Relaxroom
 """
 
     SPLMD = """
@@ -348,7 +348,7 @@ sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
 🚯ᴅᴏɴ'ᴛ ᴜsᴇ ➠ ':(!,./)
 
-Powered by :- KD Botz
+Powered by :- Relaxroom
 """
     
     REQUEST_TXT = """
