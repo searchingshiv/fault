@@ -47,13 +47,12 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('🍁 Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="kd_cnl")
+                    InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭 ', url='RelaxroomOTT.t.me'),
+                    InlineKeyboardButton('☘️ Sᴜᴘᴘᴏʀᴛ ☘️', url='RelaxroomSupport.t.me')
                   ],[
-                    InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('🕵️ Aʙᴏᴜᴛ', callback_data='about'),
+                    InlineKeyboardButton('☀️ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ ☀️', url='RelaxroomBkp.t.me'),
                   ],[
-                    InlineKeyboardButton('🔒 Cʟᴏsᴇ Mᴇɴᴜ', callback_data='close_data')
+                    InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔍', switch_inline_query_current_chat=query)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
