@@ -52,7 +52,7 @@ async def start(client, message):
                   ],[
                     InlineKeyboardButton('☀️ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ ☀️', url='RelaxroomBkp.t.me'),
                   ],[
-                    InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔍', switch_inline_query_current_chat=query)
+                    InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔍', 'switch_inline_query_current_chat=query')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
