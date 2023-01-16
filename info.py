@@ -22,7 +22,7 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/f01520f488c35ae229e21.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/5dc8d1de1a57f04b3a2c4.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/5dc8d1de1a57f04b3a2c4.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/7197069a413702b3ba98c.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/f01520f488c35ae229e21.jpg")
