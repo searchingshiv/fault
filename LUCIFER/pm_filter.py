@@ -1118,7 +1118,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams),
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
                     InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
