@@ -108,16 +108,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='Relaxroombkp.t.me'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
                 
@@ -128,16 +128,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='Relaxroombkp.t.me'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='Relaxroombkp.t.me'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
 
@@ -531,7 +531,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💻 Developer', url='RelaxroomBkp.t.me'),
+                    InlineKeyboardButton('💻 Developer', url='https://t.me/Robo_5_0'),
                     InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="kd_cnl")
                 ],[
                     InlineKeyboardButton('❗Help', callback_data='help'),
@@ -738,12 +738,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('RAF Bᴏᴛ Lᴏɢs', url="https://t.me/RAFRequestlog")
+                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/https://t.me/+nEhi2NpcdDQ4NmE1')
                      ], [
-                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/RelaxroomOTT')
-                     ], [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/RelaxroomSupport'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/RelaxroomBkp')
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+nEhi2NpcdDQ4NmE1'),
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/The_Silent_Teams')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
@@ -1100,16 +1098,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
                 
@@ -1120,16 +1118,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='RelaxroomBkp.t.me'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='RelaxroomOTT.t.me')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+nEhi2NpcdDQ4NmE1')
                 ]
             )
 
