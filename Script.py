@@ -11,16 +11,14 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/TeamRelaxroom>𒆜 Team Relaxroom</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/The_Silent_Teams>𒆜The Silent Teams</a></b>
 
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/RelaxroomBkp>Relaxroom Bot's ⚡</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/+nEhi2NpcdDQ4NmE1>Silent Teams Bot's ⚡</a></b>
 
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.69 [Sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT ="""
 <b>Bakk BC!!.
-
-- YT - <a href=https://youtube.com/@RelaxroomBkp</a></b>
 """
  
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -50,7 +48,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/RelaxroomBkp)</code>
+<code>[Button Text](buttonurl:https://t.me/+nEhi2NpcdDQ4NmE1)</code>
 
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
@@ -112,7 +110,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
-<b><a href=https://t.me/RelaxroomBkp>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ Team Relaxroom</a></b>"""
+<b><a href=https://t.me/+nEhi2NpcdDQ4NmE1>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ The Silent Teams</a></b>"""
 
     ADMIN_STATUS_TXT = """<b>⍟────[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]────⍟</b>
 
@@ -134,7 +132,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @RelaxroomBkp ]─────⍟</b>"""
+<b>⍟────[ @The_Silent_Teams]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
@@ -190,7 +188,7 @@ Rᴇᴀsᴏɴs
 𝟸) Tʏᴘᴇ Nᴀᴍᴇ Wɪᴛʜ Yᴇᴀʀ
 
 𝟹) Mᴏᴠɪᴇ Is Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ Dᴀᴛᴀʙᴀsᴇ 
-Rᴇᴘᴏʀᴛ Hᴇʀᴇ @RelaxroomSupport</b>
+Rᴇᴘᴏʀᴛ Hᴇʀᴇ @Connect_With_Robot</b>
 """
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...
@@ -199,9 +197,9 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @RelaxroomSupport</b>
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Relaxroom Team
-• ᴜꜱᴇʀɴᴀᴍᴇ : @TeamRelaxroom
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/TeamRelaxroom'>Support Team</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : The Silent Teams
+• ᴜꜱᴇʀɴᴀᴍᴇ : @The_Silent_Teams
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='@Connect_With_Robot'>Support Team</a></b>
 """
 
     KD_IMDB = """
@@ -228,9 +226,6 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @RelaxroomSupport</b>
 • /link <code>- ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ.<code>
 • /batch <code>- ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ғᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴍᴇᴅɪᴀ.<code>
 
-<b>Exᴀᴍᴘʟᴇ:</b>
-<code>/batch https://t.me/RelaxroomBkp/128 
-https://t.me/RelaxroomBkp/385</code>
 """
 
     KD_CNL = """
@@ -334,7 +329,7 @@ https://t.me/RelaxroomBkp/385</code>
 
 ɪғ ʏᴏᴜ ɴᴏᴛ sᴇᴇ ʏᴏᴜʀ ғɪʟᴇs ᴏɴ ᴛʜɪs ᴘᴀɢᴇ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ.
 
-Powered by :- Relaxroom
+Powered by :- The Silent Teams
 """
 
     SPLMD = """
@@ -348,7 +343,7 @@ sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
 🚯ᴅᴏɴ'ᴛ ᴜsᴇ ➠ ':(!,./)
 
-Powered by :- Relaxroom
+Powered by :- The Silent Teams
 """
     
     REQUEST_TXT = """
