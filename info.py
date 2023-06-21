@@ -50,7 +50,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+FdummGOQm3NlMDBl')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP',-1001953320653))
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Robo_5_0/37')
 
 # Log Channels
