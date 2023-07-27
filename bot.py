@@ -1,4 +1,4 @@
-pip install python==3.8.16
+pip --upgrade python==3.8.16
 import logging
 import logging.config
 
