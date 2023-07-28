@@ -1052,33 +1052,32 @@ async def auto_filter(client, msg, spoll=False):
         message = msg
         if message.text.startswith("/"): return  # ignore commands
         if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
-            return
-        elif:            
-            stickers = [
-                "CAACAgQAAxkBAAEJ1h5kw3ZqoiLuf8EWC-HzosVOi2IPFwACkAUAAsb8hgVZCk8j7H251C8E","CAACAgQAAxkBAAEJ1iJkw3aRAxILLnjih8F6uQf2Q4LemQACNAoAAuMIYFHTm-2ZhzbToy8E","CAACAgUAAxkBAAEJ1hRkw3X-EP_4y4lzSTPFBcDvdEgl_gACUgoAAgIHcFUQGvUD--c41i8E","CAACAgUAAxkBAAEJ1i5kw3c4ZKEDum0PYVvNN21k9_vXKgACSwcAAi_82VUOosrKH8dC6i8E","CAACAgUAAxkBAAEJ1jxkw3rNlyD2J7_LY6yqC2knBhb8rgACewADQNrZGGtjJs8odZAOLwQ","CAACAgUAAxkBAAEJ1jRkw3d8miXQpoeFr2u_7AqhGecbFwAC0AcAAtiGwVQUkv9jBx9ldS8E"]
-            stick_id = random.choice(stickers)
-            keyboard = InlineKeyboardMarkup(
-                [[InlineKeyboardButton("🔍Searching🔍", callback_data="hid")]]
+            return       
+        stickers = [
+            "CAACAgQAAxkBAAEJ1h5kw3ZqoiLuf8EWC-HzosVOi2IPFwACkAUAAsb8hgVZCk8j7H251C8E","CAACAgQAAxkBAAEJ1iJkw3aRAxILLnjih8F6uQf2Q4LemQACNAoAAuMIYFHTm-2ZhzbToy8E","CAACAgUAAxkBAAEJ1hRkw3X-EP_4y4lzSTPFBcDvdEgl_gACUgoAAgIHcFUQGvUD--c41i8E","CAACAgUAAxkBAAEJ1i5kw3c4ZKEDum0PYVvNN21k9_vXKgACSwcAAi_82VUOosrKH8dC6i8E","CAACAgUAAxkBAAEJ1jxkw3rNlyD2J7_LY6yqC2knBhb8rgACewADQNrZGGtjJs8odZAOLwQ","CAACAgUAAxkBAAEJ1jRkw3d8miXQpoeFr2u_7AqhGecbFwAC0AcAAtiGwVQUkv9jBx9ldS8E"]
+        stick_id = random.choice(stickers)
+        keyboard = InlineKeyboardMarkup(
+            [[InlineKeyboardButton("🔍Searching🔍", callback_data="hid")]]
                                       )
-            stick = await message.reply_sticker(sticker=stick_id,reply_markup=keyboard)
-            settings = await get_settings(message.chat.id)
-            if message.text.startswith("/"): return  # ignore commands
-            if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
-                return
-            if len(message.text) < 100:
-                search = message.text
-                files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
-                if not files:
-                    if settings["spell_check"]:
-                        await stick.delete()
-                        return await advantage_spell_chok(client, msg)
-                    else:
-                        await stick.delete()
-                        return
-            else:
-                await stick.delete()
-                return
+        stick = await message.reply_sticker(sticker=stick_id,reply_markup=keyboard)
+        settings = await get_settings(message.chat.id)
+        if message.text.startswith("/"): return  # ignore commands
+        if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
+            return
+        if len(message.text) < 100:
+             search = message.text
+            files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
+            if not files:
+                if settings["spell_check"]:
+                    await stick.delete()
+                    return await advantage_spell_chok(client, msg)
+                else:
+                    await stick.delete()
+                    return
+        else:
             await stick.delete()
+            return
+        await stick.delete()
     else:
         settings = await get_settings(msg.message.chat.id)
         message = msg.message.reply_to_message  # msg will be callback query
