@@ -1049,10 +1049,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
-        message = msg
-        if message.text.startswith("/"): return  # ignore commands
-        if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
-            return       
+        message = msg     
         stickers = [
             "CAACAgUAAxkBAAEJ1mhkw4gDwcOrSAABnfijct8IgD25qaAAAtQKAAJC0SFWJ4wUbu9Cy3YvBA","CAACAgUAAxkBAAEJ1mpkw4gFht5MyXokAkFqjGujz8NaMQACtAgAAj-rIFZSp1-nSzk6ky8E","CAACAgUAAxkBAAEJ1mxkw4gH6agwoCBTWNaOiWCjTHjcTQACPAwAAqPCIVYnRBWQv4CdvC8E","CAACAgUAAxkBAAEJ1m5kw4gJP06F9jyoW3Lak42o_QcS2QACkwoAAnWKIFbAUs8ZpL5iJS8E","CAACAgUAAxkBAAEJ1nBkw4gMPZtI8fyRS_ECCSUYVscuEgAC8woAAj8QIVY7SULNkzjMtS8E","CAACAgUAAxkBAAEJ1nJkw4gOmXJZgI6f_sxBMQxCxQnpogAC3goAAg3XIFbFte7uUuTGMy8E","CAACAgUAAxkBAAEJ1nRkw4gQSiQuT_M_u8MaL4GP6AF2agAC5gkAArI0IVZscKbrDQ5bzi8E","CAACAgUAAxkBAAEJ1nZkw4gSZG-2bzJ12urS4IOH-HVteQACuAkAAtCIIFbZXwd7CsK9fi8E"]
         stick_id = random.choice(stickers)
