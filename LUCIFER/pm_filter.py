@@ -1054,7 +1054,7 @@ async def auto_filter(client, msg, spoll=False):
         if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
             return       
         stickers = [
-            "CAACAgQAAxkBAAEJ1h5kw3ZqoiLuf8EWC-HzosVOi2IPFwACkAUAAsb8hgVZCk8j7H251C8E","CAACAgQAAxkBAAEJ1iJkw3aRAxILLnjih8F6uQf2Q4LemQACNAoAAuMIYFHTm-2ZhzbToy8E","CAACAgUAAxkBAAEJ1hRkw3X-EP_4y4lzSTPFBcDvdEgl_gACUgoAAgIHcFUQGvUD--c41i8E","CAACAgUAAxkBAAEJ1i5kw3c4ZKEDum0PYVvNN21k9_vXKgACSwcAAi_82VUOosrKH8dC6i8E","CAACAgUAAxkBAAEJ1jxkw3rNlyD2J7_LY6yqC2knBhb8rgACewADQNrZGGtjJs8odZAOLwQ","CAACAgUAAxkBAAEJ1jRkw3d8miXQpoeFr2u_7AqhGecbFwAC0AcAAtiGwVQUkv9jBx9ldS8E"]
+            "CAACAgUAAxkBAAEJ1mhkw4gDwcOrSAABnfijct8IgD25qaAAAtQKAAJC0SFWJ4wUbu9Cy3YvBA","CAACAgUAAxkBAAEJ1mpkw4gFht5MyXokAkFqjGujz8NaMQACtAgAAj-rIFZSp1-nSzk6ky8E","CAACAgUAAxkBAAEJ1mxkw4gH6agwoCBTWNaOiWCjTHjcTQACPAwAAqPCIVYnRBWQv4CdvC8E","CAACAgUAAxkBAAEJ1m5kw4gJP06F9jyoW3Lak42o_QcS2QACkwoAAnWKIFbAUs8ZpL5iJS8E","CAACAgUAAxkBAAEJ1nBkw4gMPZtI8fyRS_ECCSUYVscuEgAC8woAAj8QIVY7SULNkzjMtS8E","CAACAgUAAxkBAAEJ1nJkw4gOmXJZgI6f_sxBMQxCxQnpogAC3goAAg3XIFbFte7uUuTGMy8E","CAACAgUAAxkBAAEJ1nRkw4gQSiQuT_M_u8MaL4GP6AF2agAC5gkAArI0IVZscKbrDQ5bzi8E","CAACAgUAAxkBAAEJ1nZkw4gSZG-2bzJ12urS4IOH-HVteQACuAkAAtCIIFbZXwd7CsK9fi8E"]
         stick_id = random.choice(stickers)
         keyboard = InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔍Searching🔍", callback_data="hid")]]
