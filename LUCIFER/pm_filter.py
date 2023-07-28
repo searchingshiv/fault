@@ -1049,6 +1049,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg
+        stickers = [
+            "CAACAgIAAXKBAAEJr 2JksLBIH177vio_xryx67_Ks TmpyAACYWEAAjON6ARFT11qmjzHCC8E",
+            "CAACAgIAAXkBAAEJr 2Bks LBGYJiXHAH64Qdl KoinYR72wQACYgEAAjON6AQb5sCBchFveC8E",
+            "CAACAgIAAxkBAAEJr 15ksLBEMA3-1hGMr_fu15FNAAFv3MgAAmABAAI9DegEPvAculq5oJIVBA",
+            "CAACAgIAAxkBAAEJr2Rks Lygxg26BnSo6qi-GnKArAmOPgACaAEAAhAabSL1Nxwp9hekby8E", 
+            "CAACAgIAAXKBAAEJr 2ZksL0EQ 5QYj_H2wdfinz JPx3Q4wACYAEAAhAabSI0c3KbNTPF18E",
+# Add more sticker IDs here
+        ]
+        stick_id = random.choice(stickers)
+        keyboard = InlineKeyboardMarkup(
+            [[InlineKeyboardButton("Searching", callback_data="hid")]]
+                                  )
+        stick = await message.reply_sticker(sticker=stick_id, reply_markup=keyboard)
         settings = await get_settings(message.chat.id)
         if message.text.startswith("/"): return  # ignore commands
         if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
@@ -1058,11 +1071,15 @@ async def auto_filter(client, msg, spoll=False):
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
                 if settings["spell_check"]:
+                    await stick.delete()
                     return await advantage_spell_chok(msg)
                 else:
+                    await stick.delete()
                     return
         else:
+            await stick.delete()
             return
+        await stick.delete()
     else:
         settings = await get_settings(msg.message.chat.id)
         message = msg.message.reply_to_message  # msg will be callback query
