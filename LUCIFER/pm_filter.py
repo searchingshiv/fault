@@ -1051,13 +1051,7 @@ async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg
         stickers = [
-            "CAACAgIAAXKBAAEJr 2JksLBIH177vio_xryx67_Ks TmpyAACYWEAAjON6ARFT11qmjzHCC8E",
-            "CAACAgIAAXkBAAEJr 2Bks LBGYJiXHAH64Qdl KoinYR72wQACYgEAAjON6AQb5sCBchFveC8E",
-            "CAACAgIAAxkBAAEJr 15ksLBEMA3-1hGMr_fu15FNAAFv3MgAAmABAAI9DegEPvAculq5oJIVBA",
-            "CAACAgIAAxkBAAEJr2Rks Lygxg26BnSo6qi-GnKArAmOPgACaAEAAhAabSL1Nxwp9hekby8E", 
-            "CAACAgIAAXKBAAEJr 2ZksL0EQ 5QYj_H2wdfinz JPx3Q4wACYAEAAhAabSI0c3KbNTPF18E",
-# Add more sticker IDs here
-        ]
+            "CAACAgQAAxkBAAEJ1h5kw3ZqoiLuf8EWC-HzosVOi2IPFwACkAUAAsb8hgVZCk8j7H251C8E","CAACAgQAAxkBAAEJ1iJkw3aRAxILLnjih8F6uQf2Q4LemQACNAoAAuMIYFHTm-2ZhzbToy8E","CAACAgUAAxkBAAEJ1hRkw3X-EP_4y4lzSTPFBcDvdEgl_gACUgoAAgIHcFUQGvUD--c41i8E","CAACAgUAAxkBAAEJ1i5kw3c4ZKEDum0PYVvNN21k9_vXKgACSwcAAi_82VUOosrKH8dC6i8E","CAACAgUAAxkBAAEJ1jxkw3rNlyD2J7_LY6yqC2knBhb8rgACewADQNrZGGtjJs8odZAOLwQ","CAACAgUAAxkBAAEJ1jRkw3d8miXQpoeFr2u_7AqhGecbFwAC0AcAAtiGwVQUkv9jBx9ldS8E"]
         stick_id = random.choice(stickers)
         keyboard = InlineKeyboardMarkup(
             [[InlineKeyboardButton("Searching", callback_data="hid")]]
