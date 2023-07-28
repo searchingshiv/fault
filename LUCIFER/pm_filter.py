@@ -1062,7 +1062,7 @@ async def auto_filter(client, msg, spoll=False):
         keyboard = InlineKeyboardMarkup(
             [[InlineKeyboardButton("Searching", callback_data="hid")]]
                                   )
-        stick = await message.reply_sticker(sticker=stick_id, reply_markup=keyboard)
+        stick = await message.reply_sticker(sticker=stick_id,reply_markup=keyboard)
         settings = await get_settings(message.chat.id)
         if message.text.startswith("/"): return  # ignore commands
         if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
@@ -1073,7 +1073,7 @@ async def auto_filter(client, msg, spoll=False):
             if not files:
                 if settings["spell_check"]:
                     await stick.delete()
-                    return await advantage_spell_chok(msg)
+                    return await advantage_spell_chok(client, msg)
                 else:
                     await stick.delete()
                     return
