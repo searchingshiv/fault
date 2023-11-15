@@ -94,8 +94,8 @@
     }],
     "formation": {
         "worker": {
-            "quantity": 150,
-            "size": "free"
+            "quantity": 10000,
+            "size": "eco"
         }
     }
 }
