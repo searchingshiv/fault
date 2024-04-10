@@ -34,11 +34,9 @@ logger.setLevel(logging.ERROR)
 
 BUTTONS = {}
 SPELL_CHECK = {}
-DS_REACT = ["🔥", "❤️", "😍", "⚡️"]
 
-@Client.on_message(filters.private & filters.text & filters.group & filters.incoming & filters.chat & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
+@Client.on_message(filters.private & filters.text & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
 async def pv_filter(client, message):
-    await message.react(emoji=random.choice(DS_REACT))
     kd = await global_filters(client, message)
     if kd == False:
         await auto_filter(client, message)
@@ -47,7 +45,6 @@ async def pv_filter(client, message):
 async def give_filter(client, message):
     if message.chat.id != SUPPORT_GROUP:
         await global_filters(client, message)
-        await message.react(emoji=random.choice(DS_REACT))
     mf = await manual_filters(client, message)
     if mf == False:
         settings = await get_settings(message.chat.id)
@@ -1083,7 +1080,7 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
     elif msg.chat.id in filters.chat(chats=SUPPORT_GROUP): return await message.reply_text(script.SGROUP_TXT.format(message.from_user.mention, total_results, search, temp.U_NAME), disable_web_page_preview=True)
-    elif:
+    else:
         btn = [
             [
                 InlineKeyboardButton(
@@ -1098,14 +1095,22 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
 
+    try:
+        if settings['auto_delete']:
+            btn.insert(0, 
+                [
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                ]
+            )
 
-    else:
-        btn.insert(0, 
-            [
-                InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
-            ]
-        )
+        else:
+            btn.insert(0, 
+                [
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                ]
+            )
                 
     except KeyError:
         grpid = await active_connection(str(message.from_user.id))
