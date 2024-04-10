@@ -1083,7 +1083,7 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
     elif msg.chat.id in filters.chat(chats=SUPPORT_GROUP): return await message.reply_text(script.SGROUP_TXT.format(message.from_user.mention, total_results, search, temp.U_NAME), disable_web_page_preview=True)
-    else:
+    elif:
         btn = [
             [
                 InlineKeyboardButton(
@@ -1099,13 +1099,13 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
 
-        else:
-            btn.insert(0, 
-                [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
-                ]
-            )
+    else:
+        btn.insert(0, 
+            [
+                InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
+                InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+            ]
+        )
                 
     except KeyError:
         grpid = await active_connection(str(message.from_user.id))
