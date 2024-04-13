@@ -539,16 +539,16 @@ async def settings(client, message):
                     callback_data=f'setgs#auto_delete#{settings["auto_delete"]}#{grp_id}',
                 ),
             ],
-            # [
-            #     InlineKeyboardButton(
-            #         'Fɪʟᴛᴇʀs Aᴜᴛᴏ Dᴇʟ',
-            #         callback_data=f'setgs#mauto_delete#{settings["mauto_delete"]}#{grp_id}',
-            #     ),
-            #     InlineKeyboardButton(
-            #         'Eɴᴀʙʟᴇ' if settings["mauto_delete"] else 'Dɪsᴀʙʟᴇ',
-            #         callback_data=f'setgs#mauto_delete#{settings["mauto_delete"]}#{grp_id}',
-            #     ),
-            # ],
+            [
+                InlineKeyboardButton(
+                    'Fɪʟᴛᴇʀs Aᴜᴛᴏ Dᴇʟ',
+                    callback_data=f'setgs#mauto_delete#{settings["mauto_delete"]}#{grp_id}',
+                ),
+                InlineKeyboardButton(
+                    'Eɴᴀʙʟᴇ' if settings["mauto_delete"] else 'Dɪsᴀʙʟᴇ',
+                    callback_data=f'setgs#mauto_delete#{settings["mauto_delete"]}#{grp_id}',
+                ),
+            ],
             [
                 InlineKeyboardButton('Cʟᴏsᴇ Sᴇᴛᴛɪɴɢs', callback_data='close_data')
             ]
