@@ -704,6 +704,19 @@ async def send_chatmsg(bot, message):
     else:
         await message.reply_text("<b>Cᴏᴍᴍᴀɴᴅ Iɴᴄᴏᴍᴘʟᴇᴛᴇ...</b>")
 
+@Client.on_message(filters.command("premium") & filters.private)
+async def premium_handler(bot, message):                
+    btn = [[
+            InlineKeyboardButton('𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦', url='https://t.me/Man_With_SilentBot')
+          ],[
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+          ]]
+    reply_markup = InlineKeyboardMarkup(btn)
+    await message.reply_text(
+          text=script.DS_TEXT,
+          reply_markup=reply_markup
+    )
+    
 @Client.on_message(filters.command("deletefiles") & filters.user(ADMINS))
 async def deletemultiplefiles(bot, message):
     btn = [[
