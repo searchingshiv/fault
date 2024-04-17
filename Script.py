@@ -3,11 +3,38 @@ class script(object):
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs,
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.
-ɪ ᴡᴏʀᴋ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ.</b>"""
+ɪ ᴡᴏʀᴋ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ.</b>
+
+<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Tʜᴇ Sɪʟᴇɴᴛ Tᴇᴀᴍ (https://t.me/THE_SILENT_TEAMS)</blockquote></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+
+    DS_TEXT = """𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐒𝐢𝐥𝐞𝐧𝐭 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐘𝐨𝐣𝐚𝐧𝐚
+
+    <b><blockquote>🔥 For Movies 🔥</bolckquote></b>
+
+    1. Get All New/Old Movies and Series !
+    2. Get Some Audio Book 📚 📖
+    3. Only Latest Tv Reality Shows (Not Serial)
+    4. Get All New/Old Animes !
+    5. Get All New/Old Cartoons !
+
+    <b>Prices: 2 month - 100₹ / 3 month - 150₹ / 6 month - 300₹</b>
+
+    <b><blockquote>🔞 For P@rn / 18+ Videos 🔞</bolckquote></b>
+
+    1. Desi & Videshi Videos (Brazzers, Pornhub & More)
+    2. Ott Adult Videos (Ullu, Alt, Rabbit & More)
+    3. Adult Comics (Savita bhabhi, Velamma, etc) 
+    4. 18+ Movies
+    5. Leaked & Viral Videos
+
+    <b>Prices: 1 month - 75₹ / 2 month - 150₹ / 3 month - 200₹</b>
+
+    <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲: 👉🏻 @Man_With_SilentBot 👈🏻</b>
+    """
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
