@@ -55,7 +55,7 @@ SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP',-1001953320653))
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Robo_5_0/40')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002016803498)))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002016803498))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
 
 # Bot Options
