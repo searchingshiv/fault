@@ -5,7 +5,7 @@ class script(object):
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.
 ɪ ᴡᴏʀᴋ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ.</b>
 
-<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Tʜᴇ Sɪʟᴇɴᴛ Tᴇᴀᴍ (https://t.me/THE_SILENT_TEAMS)</blockquote></b>"""
+<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [Tʜᴇ Sɪʟᴇɴᴛ Tᴇᴀᴍ](https://t.me/THE_SILENT_TEAMS)</blockquote></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 
@@ -21,7 +21,9 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 4. Get All New/Old Animes !
 5. Get All New/Old Cartoons !
 
-<b>Prices: 2 month - 100₹ / 3 month - 150₹ / 6 month - 300₹</b>
+<b>Prices: 2 month - 100₹ 
+           3 month - 150₹ 
+           6 month -  300₹</b>
 
 <b><blockquote>🔞 For P@rn / 18+ Videos 🔞</bolckquote></b>
 
@@ -31,7 +33,9 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 4. 18+ Movies
 5. Leaked & Viral Videos
 
-<b>Prices: 1 month - 75₹ / 2 month - 150₹ / 3 month - 200₹</b>
+<b>Prices: 1 month - 75₹ 
+           2 month - 150₹ 
+           3 month - 200₹</b>
 
 <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲: 👉🏻 @Man_With_SilentBot 👈🏻</b>"""
 
