@@ -12,9 +12,10 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ.get('API_ID', 25833520))
+API_HASH = environ.get('API_HASH', "7d012a6cbfabc2d0436d7a09d8362af7")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7016777070:AAFv3_64vEyivvXeRyY75Q_KddmfdGR5Mew")
+
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -28,8 +29,8 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/7db384d955159386d10
 NEWGRP = environ.get("NEWGRP", "https://te.legra.ph/file/e8876d6689b687de24fbe.png")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '921365334 1562935405 7053097886').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002016803498').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -39,8 +40,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('FILDLT_CNL', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "EvaMaria")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://silentyourfun:byashish@cluster0.xwyzdk4.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "DSXUNKNOWN")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
@@ -54,7 +55,7 @@ SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP',-1001953320653))
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Robo_5_0/40')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002016803498)))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
 
 # Bot Options
@@ -84,8 +85,8 @@ DELETE_TIME = int(environ.get('DELETE_TIME', 700))
 SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # Url Shortner
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '38199a431d38b95e28b2a33062b46dc71ff6bca1')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
