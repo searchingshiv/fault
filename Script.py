@@ -13,29 +13,29 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     DS_TEXT = """<b>𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐒𝐢𝐥𝐞𝐧𝐭 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐘𝐨𝐣𝐚𝐧𝐚</b>
 
-<b><blockquote>🔥 For Movies 🔥</blockquote></b>
+<b><blockquote>🔥 𝐅𝐨𝐫 𝐌𝐨𝐯𝐢𝐞𝐬 🔥</blockquote></b>
 
-1. Get All New/Old Movies and Series !
-2. Get Some Audio Book 📚 📖
-3. Only Latest Tv Reality Shows (Not Serial)
-4. Get All New/Old Animes !
-5. Get All New/Old Cartoons !
+𝟷. Gᴇᴛ Aʟʟ Nᴇᴡ/Oʟᴅ Mᴏᴠɪᴇꜱ ᴀɴᴅ Sᴇʀɪᴇꜱ !
+𝟸. Gᴇᴛ Sᴏᴍᴇ Aᴜᴅɪᴏ Bᴏᴏᴋ 📚 📖
+𝟹. Oɴʟʏ Lᴀᴛᴇꜱᴛ Tᴠ Rᴇᴀʟɪᴛʏ Sʜᴏᴡꜱ (Nᴏᴛ Sᴇʀɪᴀʟ)
+𝟺. Gᴇᴛ Aʟʟ Nᴇᴡ/Oʟᴅ Aɴɪᴍᴇꜱ !
+𝟻. Gᴇᴛ Aʟʟ Nᴇᴡ/Oʟᴅ Cᴀʀᴛᴏᴏɴꜱ !
 
 <b>Prices: 2 month - 100₹ 
-            3 month - 150₹ 
-            6 month -  300₹</b>
+             3 month - 150₹ 
+             6 month -  300₹</b>
 
-<b><blockquote>🔞 For P@rn / 18+ Videos 🔞</bolckquote></b>
+<b><blockquote>🔞 𝐅𝐨𝐫 𝐏@𝐫𝐧 / 𝟏𝟖+ 𝐕𝐢𝐝𝐞𝐨𝐬 🔞</blockquote></b>
 
-1. Desi & Videshi Videos (Brazzers, Pornhub & More)
-2. Ott Adult Videos (Ullu, Alt, Rabbit & More)
-3. Adult Comics (Savita bhabhi, Velamma, etc) 
-4. 18+ Movies
-5. Leaked & Viral Videos
+𝟷. Dᴇꜱɪ & Vɪᴅᴇꜱʜɪ Vɪᴅᴇᴏꜱ (Bʀᴀᴢᴢᴇʀꜱ, Pᴏʀɴʜᴜʙ & Mᴏʀᴇ)
+𝟸. Oᴛᴛ Aᴅᴜʟᴛ Vɪᴅᴇᴏꜱ (Uʟʟᴜ, Aʟᴛ, Rᴀʙʙɪᴛ & Mᴏʀᴇ)
+𝟹. Aᴅᴜʟᴛ Cᴏᴍɪᴄꜱ (Sᴀᴠɪᴛᴀ ʙʜᴀʙʜɪ, Vᴇʟᴀᴍᴍᴀ, ᴇᴛᴄ) 
+𝟺. 𝟷𝟾+ Mᴏᴠɪᴇꜱ
+𝟻. Lᴇᴀᴋᴇᴅ & Vɪʀᴀʟ Vɪᴅᴇᴏꜱ
 
 <b>Prices: 1 month - 75₹ 
-            2 month - 150₹ 
-            3 month - 200₹</b>
+             2 month - 150₹ 
+             3 month - 200₹</b>
 
 <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲: 👉🏻 @Man_With_SilentBot 👈🏻</b>"""
 
