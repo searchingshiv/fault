@@ -13,7 +13,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     DS_TEXT = """𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐒𝐢𝐥𝐞𝐧𝐭 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐘𝐨𝐣𝐚𝐧𝐚
 
-<b><blockquote>🔥 For Movies 🔥</bolckquote></b>
+<b><blockquote>🔥 For Movies 🔥</blockquote></b>
 
 1. Get All New/Old Movies and Series !
 2. Get Some Audio Book 📚 📖
@@ -22,8 +22,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 5. Get All New/Old Cartoons !
 
 <b>Prices: 2 month - 100₹ 
-           3 month - 150₹ 
-           6 month -  300₹</b>
+            3 month - 150₹ 
+            6 month -  300₹</b>
 
 <b><blockquote>🔞 For P@rn / 18+ Videos 🔞</bolckquote></b>
 
@@ -34,8 +34,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 5. Leaked & Viral Videos
 
 <b>Prices: 1 month - 75₹ 
-           2 month - 150₹ 
-           3 month - 200₹</b>
+            2 month - 150₹ 
+            3 month - 200₹</b>
 
 <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲: 👉🏻 @Man_With_SilentBot 👈🏻</b>"""
 
