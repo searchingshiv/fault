@@ -36,6 +36,6 @@ pytz
 dnspython==2.3.0
 aiohttp
 python-math
+telegraph==2.2.0
 Pillow
 speedtest-cli
-git+https://github.com/KurimuzonAkuma/pyrogram
