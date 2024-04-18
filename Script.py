@@ -11,7 +11,7 @@ class script(object):
 
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    DS_TEXT = """𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐒𝐢𝐥𝐞𝐧𝐭 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐘𝐨𝐣𝐚𝐧𝐚
+    DS_TEXT = """<b>𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐒𝐢𝐥𝐞𝐧𝐭 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐘𝐨𝐣𝐚𝐧𝐚</b>
 
 <b><blockquote>🔥 For Movies 🔥</blockquote></b>
 
