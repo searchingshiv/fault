@@ -166,7 +166,8 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [[
-        InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)],[
+        InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
+    ],[
         InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', callback_data='premium')
     ]])
     try:
@@ -1148,7 +1149,8 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [[
-        InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)],[
+        InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
+    ],[
         InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', callback_data='premium')
     ]])
 
