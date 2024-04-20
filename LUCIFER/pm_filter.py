@@ -165,11 +165,11 @@ async def next_page(bot, query):
                 InlineKeyboardButton("ɴᴇxᴛ", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-    btn.insert(1, [
+    btn.insert(0, [[
         InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
     ],[
         InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url='https://t.me/Robo_5_0/48')
-    ])
+    ]])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -1148,11 +1148,11 @@ async def auto_filter(client, msg, spoll=False):
                 ]
             )
 
-    btn.insert(1, [
+    btn.insert(0, [[
         InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
     ],[
         InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url='https://t.me/Robo_5_0/48')
-    ])
+    ]])
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
