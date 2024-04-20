@@ -113,16 +113,14 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
                 ]
             )
                 
@@ -133,16 +131,14 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
                 ]
             )
 
@@ -166,11 +162,9 @@ async def next_page(bot, query):
                 InlineKeyboardButton("ɴᴇxᴛ", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-    btn.insert(0, [[
+    btn.insert(0, [
         InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
-    ],[ 
-        InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
-    ]])
+    ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -1116,16 +1110,14 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
                 ]
             )
                 
@@ -1136,24 +1128,20 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
                 ]
             )
 
-    btn.insert(0, [[
+    btn.insert(0, [
         InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
-    ],[ 
-        InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url=DS_PRE)
-    ]])
+    ])
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
