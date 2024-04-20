@@ -9,7 +9,7 @@ from Script import script
 import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
-from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, BOT_USRNME, CUSTOM_FILE_CAPTION, MSG_ALRT, AUTH_GROUPS, P_TTI_SHOW_OFF, GRP_LNK, CHNL_LNK, NOR_IMG, SPELL_IMG, IMDB, \
+from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, MSG_ALRT, AUTH_GROUPS, P_TTI_SHOW_OFF, GRP_LNK, CHNL_LNK, NOR_IMG, SPELL_IMG, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, SUPPORT_GROUP, SUPPORT_CHAT, HOW_DWLD_LINK, DELETE_TIME, SPL_DELETE_TIME
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters, enums
@@ -35,7 +35,7 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 DS_REACT = ["🔥", "❤️", "😍", "⚡"]
-DS_PRE = f"https://t.me/{BOT_USRNME}?start={script.DS_TEXT}"
+DS_PRE = f"https://telegram.me/{temp.U_NAME}?start={script.DS_TEXT}"
 
 @Client.on_message(filters.private & filters.text & filters.group & filters.incoming & filters.chat & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
 async def pv_filter(client, message):
