@@ -165,10 +165,8 @@ async def next_page(bot, query):
                 InlineKeyboardButton("ɴᴇxᴛ", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-    btn.insert([
+    btn.insert(0, [
         InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
-    ],[
-        InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url='https://t.me/Robo_5_0/48')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1148,10 +1146,8 @@ async def auto_filter(client, msg, spoll=False):
                 ]
             )
 
-    btn.insert([
+    btn.insert(0, [
         InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
-    ],[
-        InlineKeyboardButton('Gᴇᴛ Sɪʟᴇɴᴛ Pʀᴇᴍɪᴜᴍ YᴏJᴀɴᴀ 🔥', url='https://t.me/Robo_5_0/48')
     ])
 
     if offset != "":
